@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,17 +9,18 @@
     <title>Document</title>
   </head>
   <body>
+    <input type="text" name="city" id="city" />
+    <button type="button" class="weatherbtn">Get weather</button>
 
-    <input type="text" name="city" id="city"/>
-    <button onclick="onPressButton">Get weather for city</button>
-
-<br><br><br>
-    <div id="oras"></div>
-    <div class="gradeContainer">
-        <img src="" alt="Starea vremii" id="imagine"/> 
-      <div id="grade"></div>
-    </div>
-
+    <br /><br /><br />
+    <div id="cityname"></div>
+    <div class="degreesContainer">
+      <img src="" alt="Current Weather" id="image" />
+      <div id="degrees"></div>
+    </div>    
+    <div id="weathertext"></div>
+    <br>
+    <div id="forecast"></div>
     <script src="index.js"></script>
   </body>
 </html>
